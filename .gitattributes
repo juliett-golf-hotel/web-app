@@ -1,12 +1,13 @@
-; editorconfig.org
-root = true
+# Force Unix LF to make code consistent across platforms
+# Helps Markbot cheat detection to work properly
 
-[*]
-charset = utf-8
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.txt text eol=lf
+*.svg text eol=lf
+*.lock text eol=lf
 
-indent_style = space
-indent_size = 2
-
-trim_trailing_whitespace = true
-end_of_line = lf
-insert_final_newline = true
+.editorconfig text eol=lf
