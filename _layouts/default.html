@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Rain or Shine</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="{{site.baseurl}}/css/weather.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <h1 id="home" aria-label="Rain or Shine">
+      <title>Rain or Shine</title>
+      <a href="{{site.baseurl}}/#home"><img src="http://via.placeholder.com/48x48"></a>
+    </h1>
+    <nav role="navigation" id="nav">
+      <ol id="menu" class="list-group">
+        <li><a href="{{site.baseurl}}/#home">Current Weather</a></li>
+        <li><a href="{{site.baseurl}}/#hourly">Hourly Weather</a></li>
+        <li><a href="{{site.baseurl}}/#weekly">Weekly Weather</a></li>
+      </ol>
+    </nav>
+  </header>
+
+  {{content}}
+
+  <footer>
+    <p class="text-center">&copy;Rain or Shine</p>
+  </footer>
+
+</body>
+</html>
