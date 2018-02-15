@@ -1,6 +1,13 @@
 :root {
   --font-primary: "Ubuntu", sans-serif;
   --font-secondary: "Open Sans", sans-serif;
+
+  --color-primary: #d5f8f8;
+  --color-secondary: #383838;
+  --color-yellow: #fee05f;
+  --color-grey: #848484;
+  --color-white: white;
+
 }
 
 html {
