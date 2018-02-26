@@ -1,0 +1,65 @@
+button {
+  background-color: var(--color-primary)
+}
+
+a button {
+  font-size: 1em;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 15px 18px;
+  border: none;
+  border-radius: 18px;
+  margin: 20px;
+}
+
+a .btn-light {
+  color: #848484;
+}
+
+.btn-light {
+  background-color: #d5f8f8;
+}
+
+a .btn-light:hover {
+  background-color: #848484;
+  color: #d5f8f8;
+}
+
+a .btn-dark {
+  color: #fee05f;
+}
+
+.btn-dark {
+  background-color: #383838;
+}
+
+a .btn-dark:hover {
+  background-color: #848484;
+  color: #fee05f;
+}
+
+a .btn-yellow {
+  color: #848484;
+}
+
+.btn-yellow {
+  background-color: #fee05f;
+}
+
+a .btn-yellow:hover {
+  color: white;
+  background-color: #fee05f;
+}
+
+a .btn-ghost {
+  color: #848484;
+}
+
+.btn-ghost {
+  background-color: white;
+}
+
+a .btn-ghost:hover {
+  background-color: #848484;
+  color: white;
+}
