@@ -1,0 +1,15 @@
+th, tr, td {
+  text-align: center;
+}
+
+td {
+  vertical-align: middle;
+}
+
+td, th {
+  border: none;
+}
+
+tr:nth-child(even) {
+  background-color: var(--color-primary);
+}
