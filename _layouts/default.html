@@ -5,20 +5,25 @@
   <title>Rain or Shine</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="{{site.baseurl}}/css/weather.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/common/theme.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu" rel="stylesheet">
 </head>
 <body>
 
   <header>
-    <h1 id="home" aria-label="Current City">Ottawa</h1>
-    <a href="{{site.baseurl}}/#home"><img src="{{site.baseurl}}/images/logo32.svg" alt="Logo" aria-label="Logo"></a>
-    <nav role="navigation" id="nav">
-      <ol id="menu" class="list-group">
-        <li><a href="{{site.baseurl}}/#home">Current Weather</a></li>
-        <li><a href="{{site.baseurl}}/#hourly">Hourly Weather</a></li>
-        <li><a href="{{site.baseurl}}/#weekly">Weekly Weather</a></li>
-      </ol>
-    </nav>
+    <div>
+      <h1 id="home" aria-label="Current City">Ottawa</h1>
+      <a href="{{site.baseurl}}/#home"><img src="{{site.baseurl}}/images/logo32.svg" alt="Logo" aria-label="Logo"></a>
+    </div>
+    <div>
+      <nav class="inline-block" role="navigation" id="nav">
+        <ol id="menu" class="list-group">
+          <li><a href="{{site.baseurl}}/#home">Current Weather</a></li>
+          <li><a href="{{site.baseurl}}/#hourly">Hourly Weather</a></li>
+          <li><a href="{{site.baseurl}}/#weekly">Weekly Weather</a></li>
+        </ol>
+      </nav>
+    </div>
   </header>
 
   {{content}}
