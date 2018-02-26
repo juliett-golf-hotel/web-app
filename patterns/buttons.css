@@ -8,8 +8,8 @@ a button {
   text-decoration: none;
   padding: 15px 18px;
   border: none;
-  border-radius: 18px;
-  margin: 20px;
+  border-radius: 22px;
+  margin: 10px;
 }
 
 a .btn-light {
@@ -26,7 +26,7 @@ a .btn-light:hover {
 }
 
 a .btn-dark {
-  color: #fee05f;
+  color: white;
 }
 
 .btn-dark {
@@ -35,7 +35,6 @@ a .btn-dark {
 
 a .btn-dark:hover {
   background-color: #848484;
-  color: #fee05f;
 }
 
 a .btn-yellow {
@@ -47,8 +46,8 @@ a .btn-yellow {
 }
 
 a .btn-yellow:hover {
-  color: white;
-  background-color: #fee05f;
+  color: #fee05f;
+  background-color: #383838;
 }
 
 a .btn-ghost {
