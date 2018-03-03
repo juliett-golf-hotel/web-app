@@ -28,11 +28,14 @@ nav ol li:hover {
 }
 
 .nav-label {
-  margin-right: 30px;
   padding: 10px 0;
   cursor: pointer;
   display: block;
   width: 100%;
+}
+
+label img {
+  margin-left: 88%;
 }
 
 .nav-check:checked ~ .nav{
@@ -49,6 +52,10 @@ nav ol li:hover {
   display: none;
 }
 
+.active {
+
+}
+
 .nav-check:checked ~ .nav-label .nav-open{
   display: none;
 }
@@ -56,6 +63,32 @@ nav ol li:hover {
 .nav-check:checked ~ .nav-label .nav-close{
   display: block;
 }
-@@media  {
 
+.nav:active ~ .active{
+  background-color: var(--color-grey);
+}
+
+nav ol li:active {
+  background-color: var(--color-yellow);
+}
+
+@media only screen and (min-width: 60em)  {
+
+  .nav-label {
+    display: none;
+  }
+
+  .nav {
+    display: block;
+    width: 100%;
+    cursor: default;
+  }
+
+  nav ol li {
+    display: inline-block;
+    margin: 0;
+    width: 33.3333%;
+    max-width: 160px;
+    cursor: pointer;
+  }
 }
