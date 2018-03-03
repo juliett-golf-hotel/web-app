@@ -1,3 +1,61 @@
-header h1 {
-  font-family: var(--font-primary);
+nav ol li a {
+  text-decoration: none;
+  color: var(--color-secondary);
+  font-weight: bold;
+}
+
+nav {
+  background-color: var(--color-primary);
+  cursor: pointer;
+}
+
+.nav {
+  display: none;
+}
+
+nav ol {
+  margin: 0;
+}
+
+nav ol li {
+  text-align: center;
+  padding: 15px 0;
+  width: 100%;
+}
+
+nav ol li:hover {
+  background-color: var(--color-yellow);
+}
+
+.nav-label {
+  margin-right: 30px;
+  padding: 10px 0;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+}
+
+.nav-check:checked ~ .nav{
+  display: inline-block;
+  width: 100%;
+}
+
+.nav-check {
+  position: absolute;
+  top: -3em;
+}
+
+.nav-close {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-open{
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close{
+  display: block;
+}
+@@media  {
+
 }
