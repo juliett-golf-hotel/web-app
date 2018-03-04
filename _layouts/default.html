@@ -13,17 +13,29 @@
 <body>
 
   <header>
-    <h1 id="home" aria-label="Rain or Shine">
-      <title>Rain or Shine</title>
-      <a href="{{site.baseurl}}/#home"><img src="http://via.placeholder.com/48x48"></a>
-    </h1>
-    <nav role="navigation" id="nav">
-      <ol id="menu" class="list-group">
-        <li><a href="{{site.baseurl}}/#home">Current Weather</a></li>
-        <li><a href="{{site.baseurl}}/#hourly">Hourly Weather</a></li>
-        <li><a href="{{site.baseurl}}/#weekly">Weekly Weather</a></li>
-      </ol>
-    </nav>
+    <div class="inline-block xs-1 s-1-3">
+      <h1 id="home" aria-label="Current City">Ottawa</h1>
+      <a href="{{site.baseurl}}/#home"><img src="{{site.baseurl}}/images/logo32.svg" alt="Logo" aria-label="Logo"></a>
+    </div>
+    <div>
+      <ul class="skip-links">
+        <li><a href="{{site.baseurl}}/#home" aria-label="Go to home page">Current Weather</a></li>
+        <li><a href="{{site.baseurl}}/#hourly" aria-label="See Hourly Weather report">Hourly Weather</a></li>
+        <li><a href="{{site.baseurl}}/#weekly" aria-label="See Weekly Weather report">Weekly Weather</a></li>
+      </ul>
+      <nav role="navigation">
+        <input type="checkbox" class="nav-check" id="nav-check">
+        <label class="center nav-label" for="nav-check">
+          <img class="icon i-32 nav-open" src="{{site.baseurl}}/images/nav-menu.svg" alt="cloud">
+          <img class="icon i-32 nav-close" src="{{site.baseurl}}/images/nav-close.svg" alt="cloud">
+        </label>
+        <ol class="nav list-group">
+          <li class="xs-1 s-1 l-1-3 active"><a href="{{site.baseurl}}/#home" aria-label="Go to home page">Current Weather</a></li>
+          <li class="xs-1 s-1 l-1-3"><a href="{{site.baseurl}}/#hourly" aria-label="See Hourly Weather report">Hourly Weather</a></li>
+          <li class="xs-1 s-1 l-1-3"><a href="{{site.baseurl}}/#weekly" aria-label="See Weekly Weather report">Weekly Weather</a></li>
+        </ol>
+      </nav>
+    </div>
   </header>
 
   {{content}}
