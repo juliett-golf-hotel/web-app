@@ -52,10 +52,6 @@ label img {
   display: none;
 }
 
-.active {
-
-}
-
 .nav-check:checked ~ .nav-label .nav-open{
   display: none;
 }
