@@ -2,6 +2,23 @@
 layout: default
 ---
 
+<a class="center-content-horizontal" href="#popup"><button class="btn-ghost">Add City</button></a>
+
+<div id="popup" class="overlay">
+  <div class="popup">
+    <h2>Search for a city</h2>
+    <a class="close pin-rt island-1-2" href="#">
+      <i class="icon i-32">
+        <img class="img-flex" src="{{site.baseurl}}/images/nav-close.svg">
+      </i>
+    </a>
+    <div class="content">
+      <input type="text" placeholder="Search">
+      <a class="button" href="#"><button class="btn-light">Enter</button></a>
+    </div>
+  </div>
+</div>
+
 <main>
   <div>
     <h2 class="text-center">Hourly</h2>
