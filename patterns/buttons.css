@@ -42,11 +42,11 @@ a .btn-yellow {
 }
 
 .btn-yellow {
-  background-color: #fee05f;
+  background-color: var(--color-yellow);
 }
 
 a .btn-yellow:hover {
-  color: #fee05f;
+  color: var(--color-yellow);
   background-color: var(--color-secondary);
 }
 
