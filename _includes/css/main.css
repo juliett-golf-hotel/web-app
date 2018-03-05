@@ -68,6 +68,11 @@ nav ol li:active {
   background-color: var(--color-yellow);
 }
 
+footer {
+  background-color: var(--color-primary);
+  padding: 1em;
+}
+
 @media only screen and (min-width: 60em)  {
 
   .nav-label {
