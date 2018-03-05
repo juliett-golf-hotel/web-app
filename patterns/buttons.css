@@ -52,6 +52,7 @@ a .btn-yellow:hover {
 
 a .btn-ghost {
   color: var(--color-grey);
+  border: 2px solid var(--color-primary);
 }
 
 .btn-ghost {
@@ -61,4 +62,5 @@ a .btn-ghost {
 a .btn-ghost:hover {
   background-color: var(--color-grey);
   color: var(--color-white);
+  border: 2px solid var(--color-white);
 }

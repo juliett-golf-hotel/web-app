@@ -1,10 +1,26 @@
+th, tr, td {
+  text-align: center;
+}
+
+td {
+  vertical-align: middle;
+}
+
+td, th {
+  border: none;
+}
+
+tr:nth-child(even) {
+  background-color: var(--color-primary);
+}
+
 nav ol li a {
   text-decoration: none;
   color: var(--color-secondary);
   font-weight: bold;
 }
 
-nav {
+nav, header {
   background-color: var(--color-primary);
   cursor: pointer;
 }
@@ -31,11 +47,6 @@ nav ol li:hover {
   padding: 10px 0;
   cursor: pointer;
   display: block;
-  width: 100%;
-}
-
-label img {
-  margin-left: 88%;
 }
 
 .nav-check:checked ~ .nav{
@@ -92,19 +103,4 @@ footer {
     max-width: 160px;
     cursor: pointer;
   }
-
-th, tr, td {
-  text-align: center;
-}
-
-td {
-  vertical-align: middle;
-}
-
-td, th {
-  border: none;
-}
-
-tr:nth-child(even) {
-  background-color: var(--color-primary);
 }
