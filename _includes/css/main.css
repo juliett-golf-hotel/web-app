@@ -14,6 +14,10 @@ tr:nth-child(even) {
   background-color: var(--color-primary);
 }
 
+a:-webkit-any-link {
+  text-decoration: none;
+}
+
 nav ol li a {
   text-decoration: none;
   color: var(--color-secondary);

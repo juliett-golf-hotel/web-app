@@ -13,8 +13,16 @@
   padding-bottom: 10px;
 }
 
+.card-max-width p{
+  margin-bottom: 10px;
+}
+
 .card-max-width {
-  max-width: 158px;
+  max-width: 145px;
+}
+
+.m-1-3 {
+  width: 33.3333%
 }
 
 .img-center {
@@ -22,7 +30,8 @@
 }
 
 .card img {
-  margin-bottom: 20px;
+  margin-bottom: 5px;
+  margin-top: 10px;
 }
 
 .card h3 {
@@ -32,29 +41,33 @@
   margin: 0;
 }
 
+.card div:last-child {
+  border-top: 1px solid var(--color-primary);
+  margin-top: 20px;
+}
+
 .card a button {
-  margin-top: 25px;
-  margin-bottom: 15px;
+  margin: 15px 0;
+}
+
+.aside {
+  margin: 20px 2px;
 }
 
 @media only screen and (min-width: 25em) {
 
   .card {
-    width: 100%;
     max-width: 280px;
-    border: 5px solid var(--color-primary);
-    border-radius: 15px;
-    margin: 0 auto;
+  }
+
+  .card img {
+    margin-top: 0;
   }
 }
 
 @media only screen and (min-width: 38em) {
 
   .card {
-    width: 100%;
-    max-width: 500px;
-    border: 5px solid var(--color-primary);
-    border-radius: 15px;
-    margin: 0 auto;
+    max-width: 460px;
   }
 }
