@@ -88,6 +88,30 @@ footer {
   padding: 1em;
 }
 
+.morning {
+  text-align: center;
+}
+
+.greeting {
+  font-size: 1.5em;
+  color: var(--color-grey)
+}
+
+.temp {
+  font-size: 3em;
+  margin-bottom: 0.3em;
+  color: var(--color-grey)
+}
+
+.rain {
+  font-size: 1.5em;
+  color: var(--color-grey)
+}
+
+.feels {
+  color: var(--color-grey)
+}
+
 @media only screen and (min-width: 60em)  {
 
   .nav-label {

@@ -2,22 +2,34 @@
 layout: default
 ---
 
-<a class="center-content-horizontal" href="#popup"><button class="btn-ghost">Add City</button></a>
-
-<div id="popup" class="overlay">
-  <div class="popup">
-    <h2>Search for a city</h2>
-    <a class="close pin-rt island-1-2" href="#">
-      <i class="icon i-32">
-        <img class="img-flex" src="{{site.baseurl}}/images/nav-close.svg">
-      </i>
-    </a>
-    <div class="content">
-      <input type="text" placeholder="Search">
-      <a class="button" href="#"><button class="btn-light">Enter</button></a>
+<main>
+  <div class="relative">
+    <img src="{{site.baseurl}}/images/large.jpg" alt="small" aria-label="small">
+    <div class="pin-c">
+      <p class="morning greeting">Good Morning!</p>
+      <p class="morning temp">10&deg;C
+      <p class="morning feels">feels like: 8&deg;C</p>
+      <p class="morning rain">Rainy</p>
     </div>
   </div>
-</div>
+
+  <a class="center-content-horizontal" href="#popup"><button class="btn-ghost">Add City</button></a>
+
+  <div id="popup" class="overlay">
+    <div class="popup">
+      <h2>Search for a city</h2>
+      <a class="close pin-rt island-1-2" href="#">
+        <i class="icon i-32">
+          <img class="img-flex" src="{{site.baseurl}}/images/nav-close.svg">
+        </i>
+      </a>
+      <div class="content">
+        <input type="text" placeholder="Search">
+        <a class="button" href="#"><button class="btn-light">Enter</button></a>
+      </div>
+    </div>
+  </div>
+</main>
 
 <aside class="text-center island">
   <div class="card block text-center inline-block aside">
