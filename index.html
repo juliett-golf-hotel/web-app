@@ -2,7 +2,16 @@
 layout: default
 ---
 
-{% include banner.html %}
+<div class="relative">
+  <img src="{{site.baseurl}}/images/large.jpg" alt="small" aria-label="small">
+  <div class="pin-c">
+    <p class="morning greeting">Good Morning!</p>
+    <p class="morning temp">10&deg;C
+    <p class="morning feels">feels like: 8&deg;C</p>
+    <p class="morning rain">Rainy</p>
+  </div>
+</div>
+
 <main>
   <div>
     <h2 class="text-center">Hourly</h2>
