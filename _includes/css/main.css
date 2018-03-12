@@ -14,6 +14,14 @@ tr:nth-child(even) {
   background-color: var(--color-primary);
 }
 
+.banner {
+  background-image: url("{{site.baseurl}}/images/small.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 432px;
+}
+
 a:-webkit-any-link {
   text-decoration: none;
 }
@@ -112,6 +120,15 @@ footer {
   color: var(--color-grey)
 }
 
+@media only screen and (min-width: 38em) {
+
+  .banner {
+    background-image: url("{{site.baseurl}}/images/medium.jpg");
+    padding-top: 452px;
+  }
+
+}
+
 @media only screen and (min-width: 60em)  {
 
   .nav-label {
@@ -131,4 +148,10 @@ footer {
     max-width: 160px;
     cursor: pointer;
   }
+
+  .banner {
+    background-image: url("{{site.baseurl}}/images/large.jpg");
+    padding-top: 656px;
+  }
+
 }
