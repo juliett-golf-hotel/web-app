@@ -4,6 +4,22 @@ layout: default
 
 <main>
   <div class="relative">
+    <a class="absolute pin-tc" href="#popup"><button class="btn-ghost">Add City</button></a>
+
+    <div id="popup" class="overlay">
+      <div class="popup">
+        <h2>Search for a city</h2>
+        <a class="close pin-rt island-1-2" href="#">
+          <i class="icon i-32">
+            <img class="img-flex" src="{{site.baseurl}}/images/nav-close.svg">
+          </i>
+        </a>
+        <div class="content">
+          <input type="text" placeholder="Search">
+          <a class="button" href="#"><button class="btn-light">Enter</button></a>
+        </div>
+      </div>
+    </div>
     <img src="{{site.baseurl}}/images/large.jpg" alt="small" aria-label="small">
     <div class="pin-c">
       <p class="morning greeting">Good Morning!</p>
@@ -13,22 +29,6 @@ layout: default
     </div>
   </div>
 
-  <a class="center-content-horizontal" href="#popup"><button class="btn-ghost">Add City</button></a>
-
-  <div id="popup" class="overlay">
-    <div class="popup">
-      <h2>Search for a city</h2>
-      <a class="close pin-rt island-1-2" href="#">
-        <i class="icon i-32">
-          <img class="img-flex" src="{{site.baseurl}}/images/nav-close.svg">
-        </i>
-      </a>
-      <div class="content">
-        <input type="text" placeholder="Search">
-        <a class="button" href="#"><button class="btn-light">Enter</button></a>
-      </div>
-    </div>
-  </div>
 </main>
 
 <aside class="text-center island">
