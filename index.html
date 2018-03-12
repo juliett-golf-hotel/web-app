@@ -2,36 +2,71 @@
 layout: default
 ---
 
-{% include banner.html %}
-<main>
-  <div>
-    <h2 class="text-center">Hourly</h2>
-    <div>
-      <img src="http://via.placeholder.com/36x36">
-      <p>9am</p>
-    </div>
-    <div>
-      <img src="http://via.placeholder.com/36x36">
-      <p>10am</p>
-    </div>
-    <div>
-      <img src="http://via.placeholder.com/36x36">
-      <p>11am</p>
+<a class="center-content-horizontal" href="#popup"><button class="btn-ghost">Add City</button></a>
+
+<div id="popup" class="overlay">
+  <div class="popup">
+    <h2>Search for a city</h2>
+    <a class="close pin-rt island-1-2" href="#">
+      <i class="icon i-32">
+        <img class="img-flex" src="{{site.baseurl}}/images/nav-close.svg">
+      </i>
+    </a>
+    <div class="content">
+      <input type="text" placeholder="Search">
+      <a class="button" href="#"><button class="btn-light">Enter</button></a>
     </div>
   </div>
-  <div>
-    <h2 class="text-center">Weekly</h2>
-    <div>
-      <img src="http://via.placeholder.com/36x36">
-      <p>Monday</p>
+</div>
+
+<aside class="text-center island">
+  <div class="card block text-center inline-block aside">
+    <h2 class="block text-center card-header block">Hourly</h2>
+    <div class="m-1-3 block card-max-width img-center">
+      <img class="icon i-64 img-center" src="{{site.baseurl}}/images/cloud.svg" alt="Partly Cloudy" aria-describedby="Partly Cloudy">
+      <h3>-1&#176;C</h3>
+      <p class="micro text-center">Feels like -4&#176;C</p>
+      <h3 class="text-center">9:00 AM</h3>
+    </div>
+    <div class="m-1-3 block card-max-width img-center">
+      <img class="icon i-64 img-center" src="{{site.baseurl}}/images/cloud.svg" alt="Partly Cloudy" aria-describedby="Partly Cloudy">
+      <h3>1&#176;C</h3>
+      <p class="micro text-center">Feels like -2&#176;C</p>
+      <h3 class="text-center">10:00 AM</h3>
+    </div>
+    <div class="m-1-3 block card-max-width img-center">
+      <img class="icon i-64 img-center" src="{{site.baseurl}}/images/cloud.svg" alt="Partly Cloudy" aria-describedby="Partly Cloudy">
+      <h3>4&#176;C</h3>
+      <p class="micro text-center">Feels like -1&#176;C</p>
+      <h3 class="text-center">11:00 AM</h3>
     </div>
     <div>
-      <img src="http://via.placeholder.com/36x36">
-      <p>Tuesday</p>
-    </div>
-    <div>
-      <img src="http://via.placeholder.com/36x36">
-      <p>Wednesday</p>
+      <a href="{{site.baseurl}}/hourly/"><button class="btn-ghost">More Details</button></a>
     </div>
   </div>
-</main>
+
+  <div class="card block text-center inline-block aside">
+    <h2 class="block text-center card-header block">Weekly</h2>
+    <div class="m-1-3 block card-max-width img-center">
+      <img class="icon i-64 img-center" src="{{site.baseurl}}/images/cloud.svg" alt="Partly Cloudy" aria-describedby="Partly Cloudy">
+      <h3>4&#176;C</h3>
+      <p class="micro text-center">Low -5&#176;C</p>
+      <h3 class="text-center">Monday</h3>
+    </div>
+    <div class="m-1-3 block card-max-width img-center">
+      <img class="icon i-64 img-center" src="{{site.baseurl}}/images/humidity.svg" alt="Rainy" aria-describedby="Rainy">
+      <h3>6&#176;C</h3>
+      <p class="micro text-center">Low -1&#176;C</p>
+      <h3 class="text-center">Tuesday</h3>
+    </div>
+    <div class="m-1-3 block card-max-width img-center">
+      <img class="icon i-64 img-center" src="{{site.baseurl}}/images/snow.svg" alt="Snowing" aria-describedby="Snowing">
+      <h3>4&#176;C</h3>
+      <p class="micro text-center">Low -3&#176;C</p>
+      <h3 class="text-center">Wednesday</h3>
+    </div>
+    <div>
+      <a href="{{site.baseurl}}/weekly/"><button class="btn-ghost">More Details</button></a>
+    </div>
+  </div>
+</aside>

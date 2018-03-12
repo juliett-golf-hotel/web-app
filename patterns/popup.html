@@ -2,15 +2,19 @@
 layout: default
 ---
 
-  <a class="pin-tc" href="#popup"><button class="btn-light">Add City</button></a>
+  <a class="pin-tc" href="#popup"><button class="btn-ghost">Add City</button></a>
 
   <div id="popup" class="overlay">
     <div class="popup">
       <h2>Search for a city</h2>
-      <a class="close" href="#">&times;</a>
+      <a class="close pin-rt island-1-2" href="#">
+        <i class="icon i-32">
+          <img class="img-flex" src="{{site.baseurl}}/images/nav-close.svg">
+        </i>
+      </a>
       <div class="content">
         <input type="text" placeholder="Search">
-        <p><a class="button" href="#">Enter</a></p>
+        <a class="button" href="#"><button class="btn-light">Enter</button></a>
       </div>
     </div>
   </div>
